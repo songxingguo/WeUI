@@ -1,0 +1,8 @@
+<!--page/common/components/source-code/source-code.wxml-->
+<view class="page-section page-section-gap">
+  <view class="page-section-title">{{ title }}</view>
+  <view class="page-section-ctn">
+    <!-- <text>{{ code }}</text> -->
+    <button size="mini" bindtap="copyCode">复制源码</button>
+  </view>
+</view>
