@@ -1,0 +1,8 @@
+<template name="card">
+  <view class="page-body-info">
+    <view class="page-body-title">{{title}}</view>
+    <text class="page-body-content">
+        {{content}}
+    </text>
+  </view>
+</template>
