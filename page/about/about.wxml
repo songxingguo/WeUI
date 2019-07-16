@@ -1,0 +1,22 @@
+<!--page/about/about.wxml-->
+<import src="../common/card.wxml" />
+
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <template is="card" data="{{...aboutWeUI}}" />
+
+      <view class="mtr20">
+        <template is="card" data="{{...aboutAuthor}}" />
+      </view>
+
+      <view class="mtr20">
+        <view class="page-body-info">
+          <view class="page-body-title">{{aboutSourceCode.title}}</view>
+          <text class="page-body-content tc">{{aboutSourceCode.content}}</text>
+          <button size="mini" bindtap="copyUrl">复制地址</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
