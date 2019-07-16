@@ -3,17 +3,31 @@
 <import src="../../../common/foot.wxml" />
 
 <view class="container">
-  <template is="head" data="{{title: 'scroll-op'}}" />
+  <template is="head" data="{{title: '功能轮播'}}" />
 
   <view class="page-body">
-    <view class="page-section page-section-gap" style="text-align: center;">
-      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{imgUrls}}">
-          <swiper-item>
-            <image src="{{item}}" class="slide-image" width="355" height="150" />
-          </swiper-item>
-        </block>
-      </swiper>
+    <view class="page-section page-section-gap">
+      <view class="page-section-title">效果演示</view>
+      <view style="text-align: center;">
+        <view class="card">
+          <view class="card-hd">
+            <text class="card-title">标题</text>
+            <text class="card-op">操作</text>
+          </view>
+          <view class="card-bd">
+            <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+              <block wx:for="{{iconList}}">
+                <swiper-item>
+                  <view wx:for="{{item.icons}}" class="icon">
+                    <icon size="20" class="iconfont {{ item.iconClass }}"></icon>
+                    <view class="icon-name">{{ item.iconName }}</view>
+                  </view>
+                </swiper-item>
+              </block>
+            </swiper>
+          </view>
+        </view>
+      </view>
     </view>
   </view>
 

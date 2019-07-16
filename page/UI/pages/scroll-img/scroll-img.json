@@ -1,1 +1,6 @@
-{}
+{
+  "navigationBarTitleText": "图片轮播",
+  "usingComponents": {
+    "source-code": "../../../common/components/source-code/source-code"
+  }
+}

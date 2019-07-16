@@ -1,34 +1,53 @@
-// page/UI/pages/scroll-op/scroll-op.js
 Page({
   data: {
-    imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    iconList: [{
+        icons: [{
+            iconClass: 'icon-lunbotu',
+            iconName: '轮播图'
+          },
+          {
+            iconClass: 'icon-UI',
+            iconName: 'UI'
+          }, {
+            iconClass: 'icon-UIsheji',
+            iconName: 'UI设计'
+          },
+          {
+            iconClass: 'icon-ui',
+            iconName: 'ui'
+          },
+          {
+            iconClass: 'icon-gongneng',
+            iconName: '功能'
+          }
+        ],
+      },
+      {
+        icons: [{
+            iconClass: 'icon-lunbotu',
+            iconName: '轮播图'
+          },
+          {
+            iconClass: 'icon-UI',
+            iconName: 'UI'
+          }, {
+            iconClass: 'icon-UIsheji',
+            iconName: 'UI设计'
+          },
+          {
+            iconClass: 'icon-ui',
+            iconName: 'ui'
+          },
+          {
+            iconClass: 'icon-gongneng',
+            iconName: '功能'
+          }
+        ],
+      }
     ],
     indicatorDots: true,
     autoplay: false,
     interval: 5000,
-    duration: 1000
-  },
-  changeIndicatorDots: function(e) {
-    this.setData({
-      indicatorDots: !this.data.indicatorDots
-    })
-  },
-  changeAutoplay: function(e) {
-    this.setData({
-      autoplay: !this.data.autoplay
-    })
-  },
-  intervalChange: function(e) {
-    this.setData({
-      interval: e.detail.value
-    })
-  },
-  durationChange: function(e) {
-    this.setData({
-      duration: e.detail.value
-    })
+    duration: 1000,
   }
 })

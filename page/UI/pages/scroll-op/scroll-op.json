@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "scroll-op"
+  "navigationBarTitleText": "功能轮播",
+    "usingComponents": {
+      "source-code": "../../../common/components/source-code/source-code"
+    }
 }

@@ -1,2 +1,24 @@
 <!--page/UI/pages/scroll-img/scroll-img.wxml-->
-<text>page/UI/pages/scroll-img/scroll-img.wxml</text>
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: '图片轮播'}}" />
+
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <view class="page-section-title">效果演示</view>
+      <view style="text-align: center;">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{imgUrls}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image" width="355" height="150" />
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>
