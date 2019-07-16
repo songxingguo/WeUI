@@ -1,0 +1,21 @@
+<!--page/UI/pages/scroll-op/scroll-op.wxml-->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'scroll-op'}}" />
+
+  <view class="page-body">
+    <view class="page-section page-section-gap" style="text-align: center;">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>
