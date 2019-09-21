@@ -11,7 +11,7 @@ Page({
     },
     aboutSourceCode: {
       title: '关于源码',
-      content: 'https://github.com/songxingguo/MyWeUI'
+      content: 'https://github.com/songxingguo/WeUI'
     }
   },
   copyUrl: function () {
