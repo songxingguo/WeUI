@@ -1,68 +1,68 @@
 {
-	"description": "项目配置文件。",
-	"qcloudRoot": "vendor/",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.0.9",
-	"appid": "wx9623068aa81c15ed",
-	"projectname": "MyWeUI",
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": 3,
-			"list": [
-				{
-					"id": -1,
-					"name": "scroll-op",
-					"pathName": "page/UI/pages/scroll-op/scroll-op",
-					"query": ""
-				},
-				{
-					"id": 1,
-					"name": "UI",
-					"pathName": "page/UI/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "scroll-img",
-					"pathName": "page/UI/pages/scroll-img/scroll-img",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "about",
-					"pathName": "page/about/about",
-					"query": ""
-				}
-			]
-		}
-	}
+  "description": "项目配置文件。",
+  "miniprogramRoot": "/",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.0.9",
+  "appid": "wx9623068aa81c15ed",
+  "projectname": "MyWeUI",
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 3,
+      "list": [
+        {
+          "id": -1,
+          "name": "scroll-op",
+          "pathName": "page/UI/pages/scroll-op/scroll-op",
+          "query": ""
+        },
+        {
+          "id": 1,
+          "name": "UI",
+          "pathName": "page/UI/index",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "scroll-img",
+          "pathName": "page/UI/pages/scroll-img/scroll-img",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "about",
+          "pathName": "page/about/about",
+          "query": ""
+        }
+      ]
+    }
+  }
 }

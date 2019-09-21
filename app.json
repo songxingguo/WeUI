@@ -52,6 +52,8 @@
     "page/API/pages/image/image",
     "page/API/pages/voice/voice",
     "page/API/pages/file/file",
+    "page/API/pages/custom-service/custom-service",
+    "page/API/pages/sendMessage/sendMessage",
     "page/API/pages/on-accelerometer-change/on-accelerometer-change",
     "page/API/pages/canvas/canvas",
     "page/API/pages/background-audio/background-audio",
