@@ -1,15 +1,13 @@
 <!--page/about/about.wxml-->
-<import src="../common/card.wxml" />
+<import src="../common/card.wxml"/>
 
 <view class="container">
   <view class="page-body">
     <view class="page-section page-section-gap">
-      <template is="card" data="{{...aboutWeUI}}" />
-
+      <template is="card" data="{{...aboutWeUI}}"/>
       <view class="mtr20">
-        <template is="card" data="{{...aboutAuthor}}" />
+        <template is="card" data="{{...aboutAuthor}}"/>
       </view>
-
       <view class="mtr20">
         <view class="page-body-info">
           <view class="page-body-title">{{aboutSourceCode.title}}</view>
