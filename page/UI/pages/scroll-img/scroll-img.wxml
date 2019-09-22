@@ -1,10 +1,10 @@
 <!--page/UI/pages/scroll-img/scroll-img.wxml-->
 <import src="../../../common/head.wxml"/>
 <import src="../../../common/foot.wxml"/>
+<import src="../../../common/ad.wxml"/>
 
 <view class="container">
   <template is="head" data="{{title: '图片轮播'}}"/>
-  
   <view class="page-body">
     <view class="page-section page-section-gap">
       <view class="page-section-title">效果演示</view>
@@ -20,6 +20,6 @@
       </view>
     </view>
   </view>
-  
+  <template is="ad"/>
   <template is="foot"/>
 </view>

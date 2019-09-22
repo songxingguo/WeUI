@@ -1,10 +1,10 @@
 <!--page/UI/pages/scroll-op/scroll-op.wxml-->
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
+<import src="../../../common/head.wxml"/>
+<import src="../../../common/foot.wxml"/>
+<import src="../../../common/ad.wxml"/>
 
 <view class="container">
-  <template is="head" data="{{title: '功能轮播'}}" />
-
+  <template is="head" data="{{title: '功能轮播'}}"/>
   <view class="page-body">
     <view class="page-section page-section-gap">
       <view class="page-section-title">效果演示</view>
@@ -15,7 +15,8 @@
             <text class="card-op">操作</text>
           </view>
           <view class="card-bd">
-            <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}"
+                    duration="{{duration}}">
               <block wx:for="{{iconList}}">
                 <swiper-item>
                   <view wx:for="{{item.icons}}" class="icon">
@@ -30,6 +31,6 @@
       </view>
     </view>
   </view>
-
-  <template is="foot" />
+  <template is="ad"/>
+  <template is="foot"/>
 </view>

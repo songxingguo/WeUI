@@ -1,0 +1,5 @@
+<template name="ad">
+  <view class="adContainer">
+    <ad unit-id="adunit-6a56e45adba06c34"></ad>
+  </view>
+</template>
